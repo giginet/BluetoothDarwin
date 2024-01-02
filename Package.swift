@@ -18,7 +18,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/PureSwift/Bluetooth.git",
-            .branch("feature/async")
+            from: "6.4.1"
         )
     ],
     targets: [
